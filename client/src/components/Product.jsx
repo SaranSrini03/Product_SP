@@ -72,9 +72,9 @@ const Product = () => {
                      <div className='icon'>
                         <img src={Logo2} alt='logo' style={{ width: '50px', height: '50px', }}/>
                     </div>
-                    <div className='title'>Systamatic Trading Platform</div>
-                    <div className='subtitle'>Revolutionize your trading strategies with our cutting-edge Algorithmic Trading solutions. Our platform uses advanced algorithms to execute trades based on predefined criteria, minimizing human error and maximizing efficiency. Whether you're a novice trader or an experienced professional, our systematic trading tools help you optimize your performance and achieve consistent results.</div>
-                    <button className='button'>Start Algorithm Trading</button>
+                    <div className='title'>Wealth Creation Planner</div>
+                    <div className='subtitle'>Unlock your financial potential with our Wealth Creation Planner. By analyzing your spending, investment habits, and financial goals, we provide personalized investment strategies to help you achieve long-term wealth. Our intuitive platform guides you through tailored recommendations, ensuring you make informed decisions to secure your financial future.</div>
+                    <button className='button'>Plan Your Wealth</button>
                 </div>
             </div>
             
