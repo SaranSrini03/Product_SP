@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+:root{
+    --green:#CAFF33;
+    --black:#1E1E1E;
+    --white:#ffffff;
+    --gray:#1C1C1C;
+    --lightwhite:#9b9b9b;
+    --darkblack:#161616;
+}
+body{
+    background-color: #1E1E1E;
+    font-family: "Poppins", sans-serif;
+}
+.heroSection{
+    width: 90%;
+    height: 300px;
+    margin: 100px;
+    display: flex;
+}
+.heroSection > .left{
+    width: 60%;
+}
+
+.heroSection > .left > .label{
+    width: 340px;
+    height: 30px;
+    border-radius: 20px;
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.079);
+    padding: 2px;
+    font-size: 12px;
+}
+.heroSection > .left > .label > .tick{
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 5px;
+    color: var(--black);
+    width: 20px;
+    height: 20px;
+    background-color:var(--green);
+    margin-left: 10px;
+}
+.heroSection > .left > .label > p{
+    color: var(--white);
+    text-align: center;
+    margin-top: 4px;
+    margin-right: 10;
+    font-size: 15px;
+}
+.heroSection > .left > .title{
+    font-size: 40px;
+    width: 60%;
+    color: var(--white);
+    line-height: 50px;
+    height: 65px;
+
+}
+.heroSection > .left > .title > span{
+    color: var(--green);
+}
+.heroSection > .left > .subtitle{
+    font-size: 15px;
+    color: var(--lightwhite);
+    width: 60%;
+}
+.heroSection > .left > button{
+    width: 200px;
+    height: 50px;
+    border-radius: 32px;
+    border: none;
+    color: var(--black);
+    background-color: var(--green);
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.heroSection > .right > .image{
+    width: 400px;
+    height: 300px;
+    /* background-color: var(--darkblack); */
+    background-size: cover;
+
+}
+.heroSection > .right > .image > .bgImage{
+    /* display: none; */
+    position: absolute;
+    z-index: -1;
+    margin-left: -150px;
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+
+    
+}
+.productSection{
+    width: 90%;
+    height: 300px;
+    margin:200px 100px;
+    
+}
+.productSection > .title{
+    color: var(--white);
+    font-size: 25px;
+    height: 0px;
+    font-weight: 500;
+}
+.productSection > .title > span{
+    color: var(--green);
+}
+.productSection > .subsection{
+    display: flex;
+    width: 100%;
+}
+.productSection > .subsection > .subtitle{
+    font-size: 15px;
+    width: 65%;
+    color: var(--lightwhite);
+    height: 50px;
+
+}
+.productSection > .subsection > .button{
+    width: 200px;
+    height: 50px;
+    border-radius: 32px;
+    border: none;
+    color: var(--black);
+    background-color: var(--green);
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+.productSection > .container{
+    display: flex;
+    width: 90%;
+    height: 300px;
+    padding: 20px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+} 
+.productSection > .container > .box{
+    width: 35%;
+    height: 300px;
+    margin: 20px;
+}
+.productSection > .container > .box  >.icon{
+    width: 40px;
+    /* background-size: cover; */
+    margin-left: 150px;
+}
+.productSection > .container > .box > .title{
+    color: var(--lightwhite);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+}
+.productSection > .container > .box > .subtitle{
+    font-size: 12px;
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    height: 170px;
+    color: var(--lightwhite);
+    margin-bottom: 10px;
+    /* background-color: green; */
+}
+.productSection > .container > .box > .button{
+    width: 200px;
+    height: 50px;
+    border-radius: 32px;
+    border: none;
+    color: var(--black);
+    background-color: var(--green);
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.finSection{
+    width: 90%;
+    height: 300px;
+    margin: 200px 100px;
+    padding: 150px 0px 100px 0px;
+
+}
+.finSection > .title{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--green);
+    height: 20px;
+}
+.finSection > .subtitle{
+    color: var(--lightwhite);
+    font-size: 12px ;
+}
+.finSection > .container{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    width: 90%;
+    height: 600px;
+    /* background-color:var(--gray); */
+}
+.finSection > .container > .leftContainer {
+    display: grid;
+    border-radius: 12px;
+    height: 400px;
+    width: 50%;
+    background-color: var(--gray);
+    padding: 50px;
+    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+}
+
+.finSection > .container > .leftContainer > .box {
+    background-color: var(--darkblack);
+    border-radius: 12px;
+    text-align: center;
+    padding: 40px;
+    color: var(--white);
+    font-size: 15px;
+}
+.finSection > .container > .leftContainer > .box > .icon{
+    margin: 10px;
+    
+
+}
+.finSection > .container > .right{
+    border-radius: 12px;
+    height: 400px;
+    width: 50%;
+    /* background-color: red; */
+    padding: 50px;
+}
+.finSection > .container > .right > .title{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+}
+.finSection > .container > .right > .subtitle{
+    color: var(--lightwhite);
+    font-size: 12px;
+    width: 95%;
+}
+
+.finSection > .container > .right >.percentageSection{
+    display: flex;
+}
+.finSection > .container > .right >.percentageSection > .box{
+    width: 150px;
+    height: 100px;
+    /* background-color: red; */
+    margin: 10px;
+}
+.finSection > .container > .right >.percentageSection > .box > .percentage{
+    color: var(--green);
+    font-size: 35px;
+    font-weight: 500;
+    height: 20px;
+    width: 300px;
+}
+.finSection > .container > .right >.percentageSection > .box > .subtitle{
+    color: var(--lightwhite);
+    width: 300px;
+    font-weight: 500;
+    height: 20px;
+    font-size: 12px;
+}
+.finSection > .container > .right > .button{
+    width: 200px;
+    height: 50px;
+    border-radius: 32px;
+    border: 1px var(--gray) solid;
+    color: var(--white);
+    background-color: var(--darkblack);
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.yieldContainer{
+    width: 90%;
+    height: 300px;
+    margin: 150px 100px;
+    display: flex;
+    padding-top: 200px ;
+
+}
+.yieldContainer > .leftContainer{
+    width: 50%;
+}
+.yieldContainer > .leftContainer > .title{
+    color: var(--white);
+    font-size: 23px;
+    font-weight: 500;
+    height: 20px;
+}
+.yieldContainer > .leftContainer > .subtitle{
+    color: var(--lightwhite);
+    font-size: 14px;
+    width: 95%;
+}
+.yieldContainer > .leftContainer > .percentageContainer{
+    display: flex;
+}
+.yieldContainer > .leftContainer > .percentageContainer > .perBox{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}
+.yieldContainer > .leftContainer > .percentageContainer > .perBox .title{
+    color: var(--green);
+    font-size: 35px;
+    font-weight: 500;
+    height: 20px;
+    width: 300px;
+}
+.yieldContainer > .leftContainer > .percentageContainer > .perBox .subtitle{
+    color: var(--lightwhite);
+    width: 300px;
+    font-weight: 500;
+    height: 20px;
+    font-size: 12px;
+    width: 98%;
+}
+
+.yieldContainer > .leftContainer > .button{
+    width: 200px;
+    height: 50px;
+    border-radius: 32px;
+    border: 1px var(--gray) solid;
+    color: var(--white);
+    background-color: var(--darkblack);
+    font-weight: 600;
+    margin-top: 60px;
+    cursor: pointer;
+
+}
+.yieldContainer > .rightContainer{
+    display: grid;
+    border-radius: 12px;
+    height: 400px;
+    width: 40%;
+    background-color: var(--gray);
+    padding: 50px;
+    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+}
+.yieldContainer > .rightContainer > .box{
+    background-color: var(--darkblack);
+    border-radius: 12px;
+    text-align: center;
+    padding: 40px;
+    color: var(--white);
+    font-size: 15px;
+}
+
+.yieldContainer > .rightContainer > .box > .logo{
+    margin: 10px;
+}
