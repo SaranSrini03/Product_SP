@@ -361,3 +361,73 @@ body{
 .yieldContainer > .rightContainer > .box > .logo{
     margin: 10px;
 }
+/* Media Queries */
+@media (max-width: 1200px) {
+    .heroSection {
+        flex-direction: column;
+    }
+
+    .heroSection > .left,
+    .heroSection > .right {
+        width: 100%; 
+    }
+
+    .productSection > .container > .box {
+        flex: 1 1 45%; 
+    }
+
+    .finSection > .container,
+    .yieldContainer > .leftContainer,
+    .yieldContainer > .rightContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .productSection > .container > .box {
+        flex: 1 1 90%; /* Full width for mobile */
+    }
+
+    .heroSection > .left > .title {
+        font-size: 28px; /* Smaller title */
+    }
+
+    .heroSection > .left > .subtitle,
+    .productSection > .subsection > .subtitle {
+        font-size: 14px; /* Smaller subtitles */
+    }
+}
+
+@media (max-width: 480px) {
+  
+    .heroSection{
+        margin: 50px;
+        text-align: center;
+    }
+    .heroSection > .left > .label > .tick{
+        margin-left: -160px;
+    }
+    .heroSection > .left{
+
+        text-align: center;
+    }
+    .heroSection > .left > .title{
+        width: 100%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .heroSection > .left > .subtitle{
+        width: 90%;
+        text-align: center;
+    }
+    .heroSection > .left > .button{
+        margin: 30px 70px;
+    }
+    .heroSection > .right{
+        display: none;
+    }
+  
+    
+    
+}
