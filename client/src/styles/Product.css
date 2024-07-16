@@ -402,7 +402,7 @@ body{
 @media (max-width: 480px) {
   
     .heroSection{
-        margin: 50px;
+        margin: 20px;
         text-align: center;
     }
     .heroSection > .left > .label > .tick{
