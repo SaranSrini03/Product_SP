@@ -421,9 +421,6 @@ body{
         width: 90%;
         text-align: center;
     }
-    .heroSection > .left > .button{
-        margin: 30px 70px;
-    }
     .heroSection > .right{
         display: none;
     }
